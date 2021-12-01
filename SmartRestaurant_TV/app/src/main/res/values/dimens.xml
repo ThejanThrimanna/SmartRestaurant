@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="textview_ex_small_size">12sp</dimen>
+    <dimen name="textview_small_size">12sp</dimen>
+    <dimen name="textview_middle_size">14sp</dimen>
+    <dimen name="textview_large_size">20sp</dimen>
+    <dimen name="textview_large_2_size">30sp</dimen>
+    <dimen name="textview_large_3_size">40sp</dimen>
+    <dimen name="textview_large_4_size">50sp</dimen>
+    <dimen name="button_padding">5sp</dimen>
+
+    <dimen name="pager_height">16dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="button_text">18sp</dimen>
+
+    <dimen name="text_size_ex_large">20sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_ex_small">12sp</dimen>
+
+    <dimen name="pager_dot_size">6dp</dimen>
+
+    <dimen name="button_curve">4dp</dimen>
+
+    <dimen name="toolbar_icon">24dp</dimen>
+
+    <dimen name="form_margin">12dp</dimen>
+
+    <dimen name="margin">18dp</dimen>
+    <dimen name="half_and_one_margin">24dp</dimen>
+    <dimen name="half_margin">8dp</dimen>
+
+    <!-- register-->
+    <dimen name="register_cam">100dp</dimen>
+
+    <!--splash-->
+    <dimen name="splash_height">250dp</dimen>
+    <dimen name="splash_width">165dp</dimen>
+
+    <!-- main-->
+    <dimen name="main_icon">35dp</dimen>
+    <dimen name="login_icon">30dp</dimen>
+</resources>

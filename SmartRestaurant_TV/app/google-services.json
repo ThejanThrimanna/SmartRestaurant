@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "759997505848",
+    "firebase_url": "https://smartrest-5c0fa-default-rtdb.firebaseio.com",
+    "project_id": "smartrest-5c0fa",
+    "storage_bucket": "smartrest-5c0fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759997505848:android:15671e59a4dc4be33ae1cd",
+        "android_client_info": {
+          "package_name": "com.thejan.proj.restaurant.admin.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759997505848-s5e513ngp98m0g3026ed4ubbddk4tse3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkSJFOoyjTJXW7gSqK1VHVvC9RJ52y_Xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759997505848-s5e513ngp98m0g3026ed4ubbddk4tse3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759997505848:android:e0b0a0def56294913ae1cd",
+        "android_client_info": {
+          "package_name": "com.thejan.proj.restaurant.tablet.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759997505848-s5e513ngp98m0g3026ed4ubbddk4tse3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkSJFOoyjTJXW7gSqK1VHVvC9RJ52y_Xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759997505848-s5e513ngp98m0g3026ed4ubbddk4tse3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759997505848:android:b12b7f6bdb9ed9483ae1cd",
+        "android_client_info": {
+          "package_name": "com.thejan.proj.restaurant.tv.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759997505848-s5e513ngp98m0g3026ed4ubbddk4tse3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkSJFOoyjTJXW7gSqK1VHVvC9RJ52y_Xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759997505848-s5e513ngp98m0g3026ed4ubbddk4tse3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
