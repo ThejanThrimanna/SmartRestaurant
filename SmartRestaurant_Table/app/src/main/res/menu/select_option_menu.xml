@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/urgent"
+        android:title="@string/urgent" />
+
+    <item
+        android:id="@+id/normal"
+        android:title="@string/normal"/>
+
+</menu>

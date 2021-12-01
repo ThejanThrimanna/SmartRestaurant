@@ -1,0 +1,18 @@
+<resources>
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<style name="Progress" parent="android:Theme">
+		<item name="android:backgroundDimEnabled">false</item>
+	</style>
+
+	<style name="Widget.BottomNavigationView14" parent="@style/Widget.Design.BottomNavigationView">
+		<item name="fontFamily">@font/poppins</item>
+	</style>
+
+</resources>

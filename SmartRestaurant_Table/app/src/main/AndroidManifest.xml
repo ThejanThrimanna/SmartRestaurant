@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thejan.proj.restaurant.tablet.android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.Manifest.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".Restaurant"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.activity.InvoiceActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".view.activity.OrderDetailsActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".view.activity.SettleActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.activity.TableRegisterActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.activity.CartActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.activity.RegisterActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.activity.LoginActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.activity.SplashActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.activity.MainActivity"
+            android:screenOrientation="landscape" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent_black"
+        android:orientation="vertical"
+        android:padding="@dimen/button_padding">
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/half_margin"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/welcome"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textview_large_2_size"
+            android:layout_marginLeft="@dimen/half_margin"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/half_margin"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvItems"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSelectClothNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme_color"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/margin"
+        android:paddingBottom="@dimen/margin"
+        android:paddingLeft="@dimen/half_margin"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="@dimen/text_size_large"/>
+
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginLeft="30dp"
+            android:textSize="@dimen/text_size_large"/>
+
+        <TextView
+            android:id="@+id/tvTotalCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins"
+            android:layout_marginLeft="@dimen/margin"
+            android:textSize="@dimen/text_size_large"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/half_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="@dimen/text_size_large"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_next"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="4dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

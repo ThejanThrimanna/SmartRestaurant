@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.InvoiceActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme_color"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:text="@string/invoice"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textview_large_3_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textview_large_3_size" />
+
+        <TextView
+            android:id="@+id/tvOrderID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:id="@+id/tvDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_gray">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:text="@string/name"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:id="@+id/tvQuantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:text="@string/quantity"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:text="@string/price"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="@string/gross_amount"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="@string/discount"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:id="@+id/tvDscount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="@string/net_amount"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:id="@+id/tvNetAmount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+    </LinearLayout>
+
+
+</LinearLayout>

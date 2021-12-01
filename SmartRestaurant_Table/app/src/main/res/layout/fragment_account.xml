@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_black"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".view.fragment.AccountFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:fontFamily="@font/roboto_slab_bold"
+             android:text="@string/name"
+             android:textColor="@color/white"
+             android:textSize="@dimen/textview_large_2_size" />
+
+         <TextView
+             android:id="@+id/tvName"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="3"
+             android:fontFamily="@font/roboto_slab_bold"
+             android:textColor="@color/theme_color"
+             android:textSize="@dimen/textview_large_2_size" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp">
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="@string/phone_number_num"
+             android:fontFamily="@font/roboto_slab_bold"
+             android:textColor="@color/white"
+             android:textSize="@dimen/textview_large_2_size" />
+
+         <TextView
+             android:id="@+id/tvPhone"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="3"
+             android:fontFamily="@font/roboto_slab_bold"
+             android:textColor="@color/theme_color"
+             android:textSize="@dimen/textview_large_2_size" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp">
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:fontFamily="@font/roboto_slab_bold"
+             android:text="@string/table_number"
+             android:textColor="@color/white"
+             android:textSize="@dimen/textview_large_2_size" />
+
+         <TextView
+             android:id="@+id/tvTableNumber"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="3"
+             android:fontFamily="@font/roboto_slab_bold"
+             android:textColor="@color/theme_color"
+             android:textSize="@dimen/textview_large_2_size" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:visibility="visible">
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:fontFamily="@font/roboto_slab_bold"
+             android:text="@string/number_of_seats"
+             android:textColor="@color/white"
+             android:textSize="@dimen/textview_large_2_size" />
+
+         <TextView
+             android:id="@+id/tvNumberOfSeats"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="3"
+             android:fontFamily="@font/roboto_slab_bold"
+             android:textColor="@color/theme_color"
+             android:textSize="@dimen/textview_large_2_size" />
+
+      </LinearLayout>
+   </LinearLayout>
+
+   <Button
+       android:id="@+id/btnLogout"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom"
+       android:layout_marginTop="50dp"
+       android:background="@drawable/drawable_button_background"
+       android:text="@string/logout"
+       android:textColor="@color/white"
+       android:textSize="@dimen/textview_large_2_size"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:padding="10dp"/>
+
+</RelativeLayout>
