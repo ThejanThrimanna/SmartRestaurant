@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent_black"
+    android:layout_marginTop="10dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvOfferId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/offer_id"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_ex_large"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_ex_large" />
+
+        <TextView
+            android:id="@+id/tvPercentage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/percentage"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_ex_large"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvStartTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/start_time"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_ex_large" />
+
+        <TextView
+            android:id="@+id/tvEndTIme"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/end_time"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_ex_large" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/btnRemove"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_delete" />
+
+            <ImageView
+                android:id="@+id/btnEdit"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_edit" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

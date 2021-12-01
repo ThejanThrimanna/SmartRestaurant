@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.fragment.ReportFragment"
+    android:background="@drawable/background_one">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textview_large_2_size"
+        android:text="@string/sales_summary"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"
+        android:background="@color/transparent_black"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tvTodaySales"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/green"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:textSize="@dimen/textview_large_3_size" />
+
+        <TextView
+            android:id="@+id/tvWeekSales"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/red"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:textSize="@dimen/textview_large_3_size" />
+
+        <TextView
+            android:id="@+id/tvMonthSales"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:textSize="@dimen/textview_large_3_size" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/theme_color"
+            android:drawableTop="@drawable/ic_money"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:minLines="2"
+            android:padding="10dp"
+            android:text="@string/sales_report"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textview_large_2_size" />
+
+        <TextView
+            android:id="@+id/performance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/theme_color"
+            android:drawableTop="@drawable/ic_chef"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:minLines="2"
+            android:padding="10dp"
+            android:text="@string/chef_performance_report"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textview_large_2_size" />
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/theme_color"
+            android:drawableTop="@drawable/ic_category"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:gravity="center"
+            android:minLines="2"
+            android:padding="10dp"
+            android:text="@string/category_report"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textview_large_2_size" />
+    </LinearLayout>
+
+</LinearLayout>
